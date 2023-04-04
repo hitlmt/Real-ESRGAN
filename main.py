@@ -7,7 +7,7 @@ import time
 
 
 def main() -> int:
-    scale = 2
+    scale = 8
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model = RealESRGAN(device, scale=scale)
     model.load_weights(f'weights/RealESRGAN_x{scale}.pth', download=True)
