@@ -1,3 +1,11 @@
+inputs/
+results/
+weights/
+build/
+dist/
+*.egg-info/
+__pycache__/
+.ipynb_checkpoints/
 .idea/
 build/
 dist/
@@ -5,3 +13,4 @@ dist/
 
 __pycache__/
 .ipynb_checkpoints/
+>>>>>>> 9327820c003a9a855e22671c3e3342fe31124c38
